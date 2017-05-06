@@ -1,1 +1,1 @@
-web: bundle exec ruby web.rb -s Puma -p $PORT
+web: bundle exec rackup config.ru -p 4567 -s Puma -o 0.0.0.0
